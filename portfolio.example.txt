@@ -1,0 +1,20 @@
+# Portfolio Watchlist (EXAMPLE)
+# Copy this file to "portfolio.txt" and add your own holdings.
+#   cp portfolio.example.txt portfolio.txt
+# portfolio.txt is git-ignored so your holdings never get committed.
+#
+# Format: TICKER | Display Name | Quantity
+# For Tel Aviv (TASE) stocks, use the .TA suffix (e.g., NVMI.TA)
+# Lines starting with # are ignored
+#
+# === US Stocks ===
+AAPL     | Apple Inc             | 10
+MSFT     | Microsoft            | 5
+NVDA     | NVIDIA               | 8
+#
+# === US ETFs ===
+VTI      | Vanguard Total Market | 20
+SPY      | S&P 500 ETF           | 15
+#
+# === Israeli Stocks (TASE - use .TA suffix) ===
+NVMI.TA  | Nova Ltd             | 4

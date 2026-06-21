@@ -1,0 +1,27 @@
+# --- Secrets & personal data (NEVER commit these) ---
+config.py
+portfolio.txt
+pushing-to-repo
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Logs & runtime output ---
+*.log
+monitor.log
+monitor_error.log
+
+# --- Backups ---
+*.bak
+*.bak-*
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
