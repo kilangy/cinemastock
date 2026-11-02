@@ -40,6 +40,10 @@ cp config.example.py config.py
 cp portfolio.example.txt portfolio.txt
 ```
 
+`config.py` and `portfolio.txt` are listed in [`.gitignore`](.gitignore), so your
+credentials and holdings stay on your machine and are never committed. Only the
+`*.example*` templates are tracked in the repo.
+
 ### 2. Configure credentials in `config.py`
 
 **Email (Gmail):**
